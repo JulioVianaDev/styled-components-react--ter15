@@ -1,9 +1,10 @@
-import { Fundo } from "./styled/Layout";
+import { Fundo,Titulo } from "./styled/Layout";
 import './public.css'
+
 function App() {
   return (
    <Fundo>
-    asdasds
+    <Titulo>Styled components</Titulo>
    </Fundo>
   );
 }
