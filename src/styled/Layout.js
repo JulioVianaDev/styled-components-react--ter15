@@ -13,3 +13,16 @@ export const Titulo = styled.div`
   padding: 32px 0;
   text-align: center;
 `;
+
+export const Campo = styled.div`
+  background: #303741;
+  border-radius: 16px;
+  padding: 16px;
+`;
+
+export const Conteudo = styled.div`
+  background: #3b424c;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+`;
