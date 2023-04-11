@@ -13,11 +13,12 @@ function App() {
       .catch("Deu erro pra pegar os dados da api")
   },[])
 
+ 
   return (
    <Fundo>
     <Titulo>Styled components</Titulo>
     <Campo>
-     {pessoas.map(p=><Pessoa key={p.id} {...p}/>)}
+     {pessoas.map((p,index)=><Pessoa key={index} {...p}/>)}
     </Campo>
    </Fundo>
   );
