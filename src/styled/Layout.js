@@ -26,3 +26,9 @@ export const Conteudo = styled.div`
   margin-bottom: 16px;
   padding: 16px;
 `;
+
+export const Imagem = styled.img`
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+`;
